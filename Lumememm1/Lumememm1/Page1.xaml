@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm1.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="hat1"
+                   BackgroundColor="Black"
+                   BorderColor="Black"
+                   Margin="170,100"
+                   Padding="30"/>
+            <Frame x:Name="hat2"
+                   BackgroundColor="Black"
+                   BorderColor="black"
+                   Margin="150,-105"
+                   Padding="4"/>
+            <Frame x:Name="round1"
+                   BackgroundColor="white"
+                   BorderColor="BlueViolet"
+                   Margin="170,100"
+                   Padding="20"
+                   CornerRadius="40"/>
+            <Frame x:Name="round2"
+                   BackgroundColor="white"
+                   BorderColor="BlueViolet"
+                   Margin="155,-105"
+                   Padding="35"
+                   CornerRadius="90"/>
+            <Frame x:Name="round3"
+                   BackgroundColor="white"
+                   BorderColor="BlueViolet"
+                   Margin="130,100"
+                   Padding="60"
+                   CornerRadius="100"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <Button x:Name="hide"
+                        Text="Спрятать?"
+                        BackgroundColor="LightPink"
+                        BorderColor="black"
+                        Margin="50,-20"
+                        Padding="20"/>
+                <Button x:Name="show"
+                        Text="Отобразить?"
+                        BackgroundColor="LightBlue"
+                        BorderColor="black"
+                        Margin="-15,-20"
+                        Padding="20"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                <Button x:Name="random"
+                        Text="Случайно"
+                        BackgroundColor="LightYellow"
+                        BorderColor="black"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
