@@ -94,6 +94,7 @@ namespace Lumememm1
 			round2.Opacity = 0;
 			round3.Opacity = 0;
 			await Task.Run(() => Thread.Sleep(1000));
+
 		}
 
 		private async void turn_Clicked(object sender, EventArgs e)
