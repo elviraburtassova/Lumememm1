@@ -33,26 +33,55 @@
                    Padding="60"
                    CornerRadius="100"/>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Button x:Name="hide"
-                        Text="Спрятать?"
+                        Text="1"
+                        Clicked="hide_Clicked"
+                        Font="20"
+                        TextColor="DarkRed"
                         BackgroundColor="LightPink"
                         BorderColor="black"
-                        Margin="50,-20"
+                        Margin="30,-30"
                         Padding="20"/>
                 <Button x:Name="show"
-                        Text="Отобразить?"
+                        Text="2"
+                        Clicked="show_Clicked"
+                        Font="20"
+                        TextColor="Blue"
                         BackgroundColor="LightBlue"
                         BorderColor="black"
-                        Margin="-15,-20"
-                        Padding="20"/>
+                        Margin="0,-30"
+                        Padding="10"/>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Button x:Name="random"
-                        Text="Случайно"
+                        Text="3"
+                        Clicked="random_Clicked"
+                        Font="20"
+                        TextColor="DarkOrange"
                         BackgroundColor="LightYellow"
-                        BorderColor="black"/>
+                        BorderColor="black"
+                        Margin="10,10"
+                        Padding="40,10"/>
+                <Button x:Name="melt"
+                        Text="4"
+                        Clicked="melt_Clicked"
+                        Font="20"
+                        TextColor="DarkCyan"
+                        BackgroundColor="Aquamarine"
+                        BorderColor="black"
+                        Margin="15,10"
+                        Padding="40,10"/>
+                <Button x:Name="turn"
+                        Text="5"
+                        Clicked="turn_Clicked"
+                        Font="20"
+                        TextColor="Purple"
+                        BackgroundColor="MediumPurple"
+                        BorderColor="Black"
+                        Margin="15,10"
+                        Padding="30,20"/>
             </StackLayout>
 
         </StackLayout>
